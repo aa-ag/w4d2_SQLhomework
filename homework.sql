@@ -75,6 +75,7 @@ FROM payment
 WHERE customer_id BETWEEN 380 AND 430
 GROUP BY amount
 HAVING COUNT(amount) > 250;
+-- There are 3 payments greater than 250 in that range of customers
 
 
 
