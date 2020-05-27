@@ -84,4 +84,4 @@ FROM film
 GROUP BY rating
 ORDER BY count DESC;
 -- There are 5 rating categories: NC-17, G, PG, PG-13 and R
--- Rating-category 'PG-13' has the most movies. In total: 223.-- W4D2 Homework
+-- Rating-category 'PG-13' has the most movies. In total: 223.
